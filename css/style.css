@@ -10,7 +10,7 @@
 
 /*iniziamo con dare colore a tutti gli elementi dell'header*/
 header{
-    background-color: rgb(75, 174, 255);
+    background-color: rgb(160, 250, 250);
     display:flex;
     height: 100px;
     justify-content:space-between;
@@ -46,4 +46,54 @@ a{
 
 section.header_box.login{
     text-align: end;
+}
+
+/*iniziamo con il jumbotron*/
+#pagina_iniziale{
+    height: 100%;
+    background-color: blue;
+}
+
+.container_pagina_iniziale{
+    background-color: darkblue;
+    height:600px;
+    width: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container_pagina_iniziale div#paginainiziale{
+    height:500px;
+    width: 900px;
+    background-color: rgb(220, 45, 255);
+    align-self: center;
+    border:3px, black dotted;
+}
+
+.container_sfondo_bianco{
+    display:flex;
+    width: auto;
+    height: 800px;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_mainbox{
+    display:flex;
+    width: 1400px;
+    height: 468px;
+}
+
+
+.main_box{
+    border:black, 3px, dotted;
+    background-color: cyan;
+    flex:2;
+}
+
+.main_box.pink{
+    background-color: pink;
+    flex:1
 }
