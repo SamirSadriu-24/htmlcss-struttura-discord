@@ -26,15 +26,25 @@ header{
 
 }
 
+.container_header_box{
+    background-color:orange;
+    flex:1;
+    display:flex;
+    height: 50px;
+    align-items: center;
+    border:3px, black dotted;
+    justify-content:space-between;
+}
+
 .header_box {
     width:300px;
-    background-color: orange;
-    border:3px, dotted black;
     height: 25px;
     margin:0 auto;
 }
 
 nav.header_box{
+    border-left: 3px black dotted;
+    border-right: 3px black dotted;
     flex-grow: 1;
     text-align: center;
 }    
@@ -101,15 +111,40 @@ section.header_box.login{
 .container_sfondo_nero{
     display:flex;
     width: auto;
-    height: 1000px;
+    height: 700px;
     background-color:rgb(46, 46, 46);
     justify-content: center;
-    align-items: center;
+    align-items:end;
+    padding:10px;
 }
+
+.container_sfondo_nero_link{
+    display:flex;
+    width: auto;
+    height:auto;
+    background-color:rgb(46, 46, 46);
+    justify-content: center;
+}
+
 .container_mainbox{
     display:flex;
     width: 1400px;
     height: calc(80%);
+}
+
+.container_footerbox{
+    display:flex;
+    width: 1400px;
+    height: calc(100%);
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.container_footerbox_link{
+    display:flex;
+    width: 1400px;
+    height: calc(100%);
+
 }
 
 .container_mainbox.green{
@@ -145,4 +180,36 @@ section.header_box.login{
     border:black, 3px, dotted;
     background-color: rgb(8, 80, 24);
     flex:1;
+}
+
+.footer_box_salmon{
+    border:black, 3px, dotted;
+    background-color: salmon;
+    flex:2;
+}
+
+.footer_box_acquamarine{
+    border:black, 3px, dotted;
+    background-color:aquamarine;
+    flex:1;
+}
+
+div.linkfooter{
+    display:flex;
+    height: 100px;
+    width: 80%;
+}
+
+.footer_box_acquamarine_end{
+    background-color:aquamarine;
+    flex:1;
+    display:flex;
+    height: 50px;
+    align-items: center;
+    border:3px, black dotted;
+    justify-content:space-between;
+}
+
+section.footer_box_acquamarine_end p{
+    border-right:3px, black dotted;
 }
