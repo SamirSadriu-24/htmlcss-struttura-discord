@@ -5,3 +5,45 @@
     padding:0;
     box-sizing: border-box;
 }
+
+
+
+/*iniziamo con dare colore a tutti gli elementi dell'header*/
+header{
+    background-color: rgb(75, 174, 255);
+    display:flex;
+    height: 100px;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.container_header{
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    width: 1000px;
+
+}
+
+.header_box {
+    width:300px;
+    background-color: orange;
+    border:3px, dotted black;
+    height: 25px;
+    margin:0 auto;
+}
+
+nav.header_box{
+    flex-grow: 1;
+    text-align: center;
+}    
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+section.header_box.login{
+    text-align: end;
+}
