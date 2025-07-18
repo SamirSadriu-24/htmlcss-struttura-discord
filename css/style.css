@@ -64,7 +64,7 @@ section.header_box.login{
 }
 
 .container_pagina_iniziale div#paginainiziale{
-    height:500px;
+    height:calc(80%);
     width: 900px;
     background-color: rgb(220, 45, 255);
     align-self: center;
@@ -74,16 +74,48 @@ section.header_box.login{
 .container_sfondo_bianco{
     display:flex;
     width: auto;
-    height: 800px;
+    height: 600px;
     background-color:white;
     justify-content: center;
     align-items: center;
 }
 
+.container_sfondo_grigio{
+    display:flex;
+    width: auto;
+    height: 600px;
+    background-color:grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_sfondo_grigioverde{
+    display:flex;
+    width: auto;
+    height: 1000px;
+    background-color:grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_sfondo_nero{
+    display:flex;
+    width: auto;
+    height: 1000px;
+    background-color:rgb(46, 46, 46);
+    justify-content: center;
+    align-items: center;
+}
 .container_mainbox{
     display:flex;
     width: 1400px;
-    height: 468px;
+    height: calc(80%);
+}
+
+.container_mainbox.green{
+    display:flex;
+    width: 1400px;
+    height: 900px;
 }
 
 
@@ -95,5 +127,22 @@ section.header_box.login{
 
 .main_box.pink{
     background-color: pink;
-    flex:1
+    flex:1;
+}
+
+.main_box.pink_grey{
+    background-color: pink;
+    flex:2;
+}
+
+.main_box_grey{
+    border:black, 3px, dotted;
+    background-color: cyan;
+    flex:1;
+}
+
+.main_box_green{
+    border:black, 3px, dotted;
+    background-color: rgb(8, 80, 24);
+    flex:1;
 }
