@@ -22,8 +22,7 @@ header{
     display:flex;
     justify-content: space-evenly;
     align-content: space-between;
-    width: 1000px;
-
+    width: 1400px;
 }
 
 .container_header_box{
@@ -83,7 +82,6 @@ section.header_box.login{
 
 .container_sfondo_bianco{
     display:flex;
-    width: auto;
     height: 600px;
     background-color:white;
     justify-content: center;
@@ -92,7 +90,6 @@ section.header_box.login{
 
 .container_sfondo_grigio{
     display:flex;
-    width: auto;
     height: 600px;
     background-color:grey;
     justify-content: center;
@@ -101,7 +98,6 @@ section.header_box.login{
 
 .container_sfondo_grigioverde{
     display:flex;
-    width: auto;
     height: 1000px;
     background-color:grey;
     justify-content: center;
@@ -110,7 +106,6 @@ section.header_box.login{
 
 .container_sfondo_nero{
     display:flex;
-    width: auto;
     height: 700px;
     background-color:rgb(46, 46, 46);
     justify-content: center;
@@ -120,8 +115,6 @@ section.header_box.login{
 
 .container_sfondo_nero_link{
     display:flex;
-    width: auto;
-    height:auto;
     background-color:rgb(46, 46, 46);
     justify-content: center;
 }
